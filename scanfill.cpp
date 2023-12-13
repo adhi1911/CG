@@ -54,7 +54,7 @@ ymin=480;
    else
    m[i]=(float)dy/dx;
  }
-
+ //scanline filling
 for(yscan=ymax;yscan>ymin;yscan--)
  {
     cnt=0;
